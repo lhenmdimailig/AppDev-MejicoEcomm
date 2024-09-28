@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediShop - Your Trusted Medical Supplies Store</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/styles.css"> 
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/image/cardiogram.png" alt="MediShop Logo" height="30">
+                <span>MEJICO HEALTH CARE</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                  </li>
+                  <li class="nav-item"></li>
+                    <a class="nav-link" href="#">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+            </div>              
+            <div class="d-flex">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#cart">
+                            <i class="bi bi-cart"></i> Cart <span class="badge bg-primary">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#account">
+                            <i class="bi bi-person"></i> Account
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero text-center">
+        <div class="container">
+            <h1 class="display-4">Your Trusted Medical Supplies Store</h1>
+            <p class="lead">Quality products for healthcare professionals and home care</p>
+            <a href="#products" class="btn btn-light btn-lg">Shop Now</a>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <section id="products">
+            <h2 class="text-center mb-4">Featured Products</h2>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Stethoscope">
+                        <div class="card-body">
+                            <h5 class="card-title">Stethoscope</h5>
+                            <p class="card-text">High-quality stethoscope for accurate auscultation</p>
+                            <p class="card-text"><strong>$49.99</strong></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1584017911766-d451b3d0e843?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Surgical Masks">
+                        <div class="card-body">
+                            <h5 class="card-title">Surgical Masks</h5>
+                            <p class="card-text">3-ply disposable masks for daily protection</p>
+                            <p class="card-text"><strong>$12.99</strong></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1583947215259-38e31be8751f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="Digital Thermometer">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Thermometer</h5>
+                            <p class="card-text">Fast and accurate temperature readings</p>
+                            <p class="card-text"><strong>$24.99</strong></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="https://images.unsplash.com/photo-1584015907766-d49f252327ee?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="First Aid Kit">
+                        <div class="card-body">
+                            <h5 class="card-title">First Aid Kit</h5>
+                            <p class="card-text">Comprehensive kit for emergency situations</p>
+                            <p class="card-text"><strong>$39.99</strong></p>
+                            <a href="#" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="product-details" class="my-5">
+            <h2 class="text-center mb-4">Product Details</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" class="img-fluid rounded" alt="Stethoscope">
+                </div>
+                <div class="col-md-6">
+                    <h3>Professional Stethoscope</h3>
+                    <p class="lead">High-quality stethoscope for accurate auscultation</p>
+                    <p><strong>Price: $49.99</strong></p>
+                    <p>This professional-grade stethoscope offers superior acoustics for accurate diagnosis. It features a dual-head chest piece, durable tubing, and comfortable ear tips for extended use.</p>
+                    <ul>
+                        <li>Dual-head chest piece for versatile auscultation</li>
+                        <li>High-quality diaphragm for clear sound transmission</li>
+                        <li>Ergonomic design for comfortable use</li>
+                        <li>Latex-free materials for allergy prevention</li>
+                    </ul>
+                    <button class="btn btn-primary btn-lg">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="my-5">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" class="img-fluid rounded" alt="About Us">
+                </div>
+                <div class="col-md-6">
+                    <p>MediShop is your trusted partner in healthcare supplies. With over a decade of experience, we pride ourselves on offering high-quality medical equipment and supplies to healthcare professionals and individuals alike.</p>
+                    <p>Our mission is to provide reliable, affordable, and innovative medical products that improve the quality of care and enhance patient outcomes. We work closely with leading manufacturers to ensure that our products meet the highest standards of quality and performance.</p>
+                    <p>At MediShop, we understand the critical nature of medical supplies. That's why we offer 24/7 customer support, fast shipping, and a satisfaction guarantee on all our products.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="my-5">
+            <h2 class="text-center mb-4">Contact Us</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <h4>Our Location</h4>
+                    <p>123 Medical Avenue, Healthville, MED 12345</p>
+                    <h4>Contact Information</h4>
+                    <p>Email: info@medishop.com</p>
+                    <p>Phone: (123) 456-7890</p>
+                    <h4>Business Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                    <p>Saturday: 10:00 AM - 2:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#products" class="text-white">Products</a></li>
+                        <li><a href="#about" class="text-white">About Us</a></li>
+                        <li><a href="#contact" class="text-white">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Newsletter</h5>
+                    <p>Subscribe to our newsletter for updates and special offers.</p>
+                    <form class="mb-3">
+                        <div class="input-group">
+                            <input type="email" class="form-control" placeholder="Enter your email" required>
+                            <button class="btn btn-primary" type="submit">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-4">
+                    <h5>Connect With Us</h5>
+                    <div class="social-icons">
+                        <a href="#" class="text-white me-2"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white me-2"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-white">
+            <div class="text-center">
+                <p>&copy; 2023 MediShop. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
